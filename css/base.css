@@ -6,6 +6,33 @@
     font-weight: normal;
 }
 
+/*Declarando variáveis:
+    --nome(tendo a ver c oq será feito): valor;
+    --cor-de-fundo : #ff0066;
+    --size-font-padrao: 3rem
+
+    para utilizar:
+    h1 {
+        color: var(--cor-de-fundo);
+        font-size: var(--size-font-padrao);
+    }
+    
+*/
+
+:root{
+    /* Cores de Fundo e Identidade */
+    --bg-dark:#1a1b1c;  /* Fundo quase preto */
+    --bg-dark-med:#4f5357;  /* Fundo quase preto */
+    --bg-panel:#242629; /* Fundo de base */
+    --primary:#556b2f; /* Verde Oliva */
+    --primary-hover:#6b8e23; /* Verde Oliva mais claro para o hover */
+
+    /* Cores de Texto */
+    --text-main:#e0e0e0; /* Branco acinzentado */
+    --text-muted:#a0a0a0; /* Textos menos importantes */
+    --text-inv:#ffffff; /* Branco puro para contraste no verde do hover */
+}
+
 html {
     font-size: 62.5%;
 }
@@ -24,4 +51,5 @@ ul {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
