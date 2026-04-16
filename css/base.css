@@ -56,3 +56,8 @@ a{
     text-decoration: none;
     color: inherit;
 }
+
+main{
+    position: relative;
+    width: 100%;
+}
