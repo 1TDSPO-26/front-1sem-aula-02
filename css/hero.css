@@ -1,14 +1,22 @@
 .hero{
     background-color: var(--bg-dark-med);
     color: var(--text-main);
+    position: relative;
+    width: 100%;
+    height: 100vh;
 }
 
 .hero_container{
-    background-image: url("../img/e5f6be11-e70c-48ae-ae6a-fb6704b59c12.jpg");
+    background-image: linear-gradient , url("../img/img-01-fundo-hero.jpg.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 2rem;
 
-    
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
 }
