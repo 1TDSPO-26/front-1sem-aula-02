@@ -12,5 +12,31 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 2rem;
+    padding: 1rem 3rem;
+}
+
+.hero__title {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 600;
+    margin-top: 1%;
+}
+
+.hero__text {
+    text-align: justify;
+    line-height: 5rem;
+    font-size: 3rem;
+    font-weight: 200;
+}
+
+.hero__btn{
+    display: block;
+    background: var(--primary);
+    width: auto;
+    max-width: 15rem;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 0 auto;
+    border: 0.5rem solid #ffffff;
 }
