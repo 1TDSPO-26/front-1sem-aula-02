@@ -14,3 +14,30 @@
     background-repeat: no-repeat;
     padding: 2rem;
 }
+
+.hero__title{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.hero__text{
+    text-align: justify;
+    line-height: 5rem;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.hero__btn{
+    display: block;
+    background-color: var(--primary);
+    width: auto;
+    min-width: 10rem;
+    max-width: 15rem;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 0 auto;
+    border: 0.5rem solid #fff;
+
+}
