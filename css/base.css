@@ -24,5 +24,6 @@ ul{
 
 a{
     text-decoration: none;
+    caret-color: inherit;
 }
 
