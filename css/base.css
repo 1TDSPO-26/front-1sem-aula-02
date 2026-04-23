@@ -42,6 +42,10 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 100vw;
     height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 ul{
@@ -54,6 +58,5 @@ a{
 }
 
 main{
-    position: relative;
     width: 100%;
 }
